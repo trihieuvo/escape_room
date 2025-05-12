@@ -1,0 +1,277 @@
+
+--- Run @ 2025-05-11 23:34:26 ---
+Maze: 47x29, Keys Set: 0, Actual Keys Req: 0, Speed: 4.00x
+  Mode: Greedy
+    Path Found: Yes
+    Path Cost: 138
+    Path Steps: 134
+    Nodes Expanded: 148
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:12:45 ---
+Maze: 27x9, Keys Set: 5, Actual Keys Req: 5, Speed: 1.00x
+  Mode: QLearning
+    Path Found: Yes
+    Path Cost: 69
+    Path Steps: 56
+    Nodes Expanded: 56
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:14:07 ---
+Maze: 37x19, Keys Set: 4, Actual Keys Req: 4, Speed: 4.00x
+  Mode: QLearning
+    Path Found: Yes
+    Path Cost: 190
+    Path Steps: 180
+    Nodes Expanded: 180
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:14:35 ---
+Maze: 37x19, Keys Set: 4, Actual Keys Req: 4, Speed: 4.00x
+  Mode: QLearning
+    Path Found: No
+    Nodes Expanded: 70
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:15:22 ---
+Maze: 37x19, Keys Set: 4, Actual Keys Req: 4, Speed: 8.00x
+  Mode: QLearning
+    Path Found: No
+    Nodes Expanded: 77
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:15:38 ---
+Maze: 37x19, Keys Set: 4, Actual Keys Req: 4, Speed: 8.00x
+  Mode: CSPBacktrackingFC
+    Path Found: Yes
+    Path Cost: 113
+    Path Steps: 101
+    Nodes Expanded: 517
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:15:56 ---
+Maze: 37x19, Keys Set: 0, Actual Keys Req: 4, Speed: 8.00x
+  Mode: SPO
+    Path Found: No
+    Nodes Expanded: 3515
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:16:18 ---
+Maze: 37x19, Keys Set: 0, Actual Keys Req: 3, Speed: 8.00x
+  Mode: SPO
+    Path Found: Yes
+    Path Cost: 368
+    Path Steps: 308
+    Nodes Expanded: 308
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:16:33 ---
+Maze: 37x19, Keys Set: 0, Actual Keys Req: 3, Speed: 8.00x
+  Mode: SPO
+    Path Found: Yes
+    Path Cost: 838
+    Path Steps: 670
+    Nodes Expanded: 670
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:17:07 ---
+Maze: 37x19, Keys Set: 3, Actual Keys Req: 3, Speed: 8.00x
+  Mode: QLearning
+    Path Found: No
+    Nodes Expanded: 57
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:25:37 ---
+Maze: 37x19, Keys Set: 5, Actual Keys Req: 3, Speed: 8.00x
+  Mode: QLearning
+    Path Found: Yes
+    Path Cost: 127
+    Path Steps: 116
+    Nodes Expanded: 116
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:26:11 ---
+Maze: 37x19, Keys Set: 5, Actual Keys Req: 5, Speed: 8.00x
+  Mode: QLearning
+    Path Found: No
+    Nodes Expanded: 66
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:27:56 ---
+Maze: 37x19, Keys Set: 4, Actual Keys Req: 4, Speed: 1.00x
+  Mode: QLearning
+    Path Found: No
+    Nodes Expanded: 102
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:33:29 ---
+Maze: 37x19, Keys Set: 5, Actual Keys Req: 5, Speed: 8.00x
+  Mode: QLearning
+    Path Found: No
+    Nodes Expanded: 51
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:35:47 ---
+Maze: 37x19, Keys Set: 3, Actual Keys Req: 3, Speed: 1.00x
+  Mode: QLearning
+    Path Found: No
+    Nodes Expanded: 51
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:38:25 ---
+Maze: 33x21, Keys Set: 5, Actual Keys Req: 5, Speed: 4.00x
+  Mode: CSPBacktrackingFC
+    Path Found: Yes
+    Path Cost: 375
+    Path Steps: 347
+    Nodes Expanded: 2563
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:40:16 ---
+Maze: 33x21, Keys Set: 0, Actual Keys Req: 0, Speed: 1.00x
+  Mode: QLearning
+    Path Found: Yes
+    Path Cost: 52
+    Path Steps: 52
+    Nodes Expanded: 52
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:40:38 ---
+Maze: 33x21, Keys Set: 0, Actual Keys Req: 0, Speed: 8.00x
+  Mode: QLearning
+    Path Found: Yes
+    Path Cost: 52
+    Path Steps: 52
+    Nodes Expanded: 52
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:41:29 ---
+Maze: 33x21, Keys Set: 3, Actual Keys Req: 3, Speed: 8.00x
+  Mode: QLearning
+    Path Found: Yes
+    Path Cost: 187
+    Path Steps: 169
+    Nodes Expanded: 169
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:42:12 ---
+Maze: 33x21, Keys Set: 5, Actual Keys Req: 5, Speed: 1.00x
+  Mode: BFS
+    Path Found: Yes
+    Path Cost: 161
+    Path Steps: 139
+    Nodes Expanded: 3296
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:42:32 ---
+Maze: 33x21, Keys Set: 5, Actual Keys Req: 5, Speed: 1.00x
+  Mode: Greedy
+    Path Found: Yes
+    Path Cost: 132
+    Path Steps: 122
+    Nodes Expanded: 704
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:42:51 ---
+Maze: 33x21, Keys Set: 5, Actual Keys Req: 5, Speed: 1.00x
+  Mode: Greedy
+    Path Found: Yes
+    Path Cost: 132
+    Path Steps: 122
+    Nodes Expanded: 704
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:43:03 ---
+Maze: 33x21, Keys Set: 5, Actual Keys Req: 5, Speed: 8.00x
+  Mode: AStar
+    Path Found: Yes
+    Path Cost: 160
+    Path Steps: 143
+    Nodes Expanded: 1447
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:43:23 ---
+Maze: 33x21, Keys Set: 5, Actual Keys Req: 5, Speed: 8.00x
+  Mode: LocalBeamSearch
+    Path Found: Yes
+    Path Cost: 175
+    Path Steps: 159
+    Nodes Expanded: 165
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:43:31 ---
+Maze: 33x21, Keys Set: 0, Actual Keys Req: 5, Speed: 8.00x
+  Mode: SPO
+    Path Found: Yes
+    Path Cost: 160
+    Path Steps: 140
+    Nodes Expanded: 140
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:45:16 ---
+Maze: 33x21, Keys Set: 5, Actual Keys Req: 5, Speed: 8.00x
+  Mode: CSPBacktrackingFC
+    Path Found: Yes
+    Path Cost: 164
+    Path Steps: 156
+    Nodes Expanded: 3631592
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:46:17 ---
+Maze: 33x21, Keys Set: 5, Actual Keys Req: 5, Speed: 8.00x
+  Mode: QLearning
+    Path Found: No
+    Nodes Expanded: 76
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 00:47:16 ---
+Maze: 33x21, Keys Set: 5, Actual Keys Req: 5, Speed: 8.00x
+  Mode: QLearning
+    Path Found: No
+    Nodes Expanded: 77
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 01:01:37 ---
+Maze: 33x21, Keys Set: 0, Actual Keys Req: 0, Speed: 1.00x
+  Mode: LocalBeamSearch
+    Path Found: Yes
+    Path Cost: 48
+    Path Steps: 48
+    Nodes Expanded: 49
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 01:02:16 ---
+Maze: 33x21, Keys Set: 0, Actual Keys Req: 0, Speed: 1.00x
+  Mode: SPO
+    Path Found: Yes
+    Path Cost: 54
+    Path Steps: 54
+    Nodes Expanded: 54
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 01:02:42 ---
+Maze: 33x21, Keys Set: 0, Actual Keys Req: 0, Speed: 1.00x
+  Mode: CSPBacktrackingFC
+    Path Found: Yes
+    Path Cost: 64
+    Path Steps: 60
+    Nodes Expanded: 83
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 01:03:41 ---
+Maze: 33x21, Keys Set: 0, Actual Keys Req: 0, Speed: 8.00x
+  Mode: CSPBacktrackingFC
+    Path Found: Yes
+    Path Cost: 64
+    Path Steps: 60
+    Nodes Expanded: 83
+--- End Run Entry ---
+
+--- Run @ 2025-05-12 01:03:46 ---
+Maze: 33x21, Keys Set: 0, Actual Keys Req: 0, Speed: 8.00x
+  Mode: CSPBacktrackingFC
+    Path Found: Yes
+    Path Cost: 64
+    Path Steps: 60
+    Nodes Expanded: 83
+--- End Run Entry ---

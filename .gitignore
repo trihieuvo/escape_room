@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+venv/
+env/
+*.env
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Generated reports (quan trọng cho dự án của bạn)
+# maze_run_reports.txt # Tạm thời comment dòng này nếu bạn muốn commit file report lần đầu
