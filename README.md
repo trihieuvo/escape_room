@@ -14,7 +14,7 @@ Chào mừng bạn đến với Room Escape, một trò chơi giải mê cung th
 *   **Chế Độ Chơi Đa Dạng**:
     *   **Player Mode**: Tự tay điều khiển nhân vật để giải mê cung.
     *   **Algorithm Mode**: Chọn một trong nhiều thuật toán để xem nó tự động tìm đường.
-*   **Trực Quan Hóa Thuật Toán**: Theo dõi quá trình "suy nghĩ" của các thuật toán tìm kiếm khi chúng khám phá mê cung, hiển thị các nút đã duyệt, biên giới tìm kiếm và đường đi cuối cùng.
+*   **Trực Quan Hóa Thuật Toán**: Theo dõi quá trình "suy nghĩ" của các thuật toán tìm kiếm khi chúng khám phá mê cung, hiển thị các nút đã duyệt và đường đi cuối cùng.
 *   **So Sánh Thuật Toán**: Chạy nhiều thuật toán trên cùng một mê cung và xem bảng so sánh chi tiết về:
     *   Khả năng tìm thấy đường đi.
     *   Chi phí của đường đi (đối với thuật toán) / Thời gian hoàn thành (đối với người chơi).
@@ -43,13 +43,13 @@ Người dùng có thể chọn một trong các thuật toán sau để giải 
 
 *   **Greedy Best-First Search**:
     *   **Loại**: Tìm kiếm có thông tin (Informed Search), Heuristic Search.
-    *   **Đặc điểm**: Sử dụng một hàm heuristic (thường là khoảng cách Manhattan hoặc Euclid đến đích) để ưu tiên mở rộng các nút có vẻ gần đích nhất. Nhanh chóng tìm ra đường đi nhưng không đảm bảo là tối ưu về chi phí hoặc số bước.
-    *   **Hiển thị**: Các ô đã duyệt, frontier (thường là hàng đợi ưu tiên), và đường đi dự kiến.
+    *   **Đặc điểm**: Sử dụng một hàm heuristic để ưu tiên mở rộng các nút có vẻ gần đích nhất. Nhanh chóng tìm ra đường đi nhưng không đảm bảo là tối ưu về chi phí hoặc số bước.
+    *   **Hiển thị**: Các ô đã duyệt, frontier (hàng đợi ưu tiên), và đường đi dự kiến.
 
 *   **A\* Search (A-Star)**:
     *   **Loại**: Tìm kiếm có thông tin, Heuristic Search.
     *   **Đặc điểm**: Kết hợp ưu điểm của BFS (Dijkstra - chi phí thực tế từ điểm bắt đầu, `g(n)`) và Greedy Search (chi phí ước lượng đến đích, `h(n)`). Đánh giá nút dựa trên `f(n) = g(n) + h(n)`. Nếu hàm heuristic là "nhất quán" (consistent) hoặc "chấp nhận được" (admissible), A\* đảm bảo tìm ra đường đi có chi phí thấp nhất.
-    *   **Hiển thị**: Tương tự như Greedy Search, bao gồm chi phí `g` và `f` có thể được xem xét trong quá trình trực quan hóa (nếu được triển khai).
+    *   **Hiển thị**: Tương tự như Greedy Search.
 
 *   **Simulated Annealing (SA)**:
     *   **Loại**: Tìm kiếm cục bộ ngẫu nhiên (Randomized Local Search), Metaheuristic.
@@ -72,7 +72,7 @@ Người dùng có thể chọn một trong các thuật toán sau để giải 
     *   **Hiển thị**: Đường đi đang được xây dựng từng bước, và có thể hiển thị các "miền giá trị" (domains) của các biến đang bị thu hẹp bởi Forward Checking.
 
 *   **Q-Learning**:
-    *   **Loại**: Học tăng cường (Reinforcement Learning), Học không cần mô hình (Model-Free).
+    *   **Loại**: Học tăng cường (Reinforcement Learning).
     *   **Đặc điểm**: Agent học một hàm giá trị hành động (Q-value) cho mỗi cặp (trạng thái, hành động) thông qua tương tác thử và sai với môi trường (mê cung). Q-value ước tính phần thưởng kỳ vọng khi thực hiện một hành động tại một trạng thái và tuân theo chính sách tối ưu sau đó.
     *   **Hiển thị**: Quá trình huấn luyện (các tập - episodes), và sau đó là đường đi được suy ra từ Q-table đã học. Bản đồ giá trị (value map) từ Q-table cũng có thể được hiển thị.
 
