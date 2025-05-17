@@ -1,3 +1,4 @@
+Link project on Github: [https://github.com/trihieuvo/8_puzzle_solver.git](https://github.com/trihieuvo/escape_room)
 # Room Escape - Game Giải Mê Cung Thông Minh
 
 Chào mừng bạn đến với Room Escape, một trò chơi giải mê cung thông minh được phát triển bằng Pygame! Trò chơi này không chỉ cho phép bạn tự mình khám phá và giải các căn phòng mê cung được tạo ngẫu nhiên mà còn cung cấp một nền tảng để so sánh hiệu suất của nhiều thuật toán tìm đường khác nhau.
